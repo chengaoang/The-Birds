@@ -18,7 +18,8 @@
     > [docker.com install docker](https://docs.docker.com/install/linux/docker-ce/centos/#install-using-the-convenience-script)
     >
     > [aliyun install docker](https://yq.aliyun.com/articles/110806?spm=a2c4e.11153940.0.0.52027e291Wei2v)
-- run Docker image
+    
+  - run Docker image
   
     > ```shell
     > $ mkdir angryBird && cd angryBird && wget https://raw.githubusercontent.com/chengaoang/The-Birds/develop/dockerFile/Dockerfile && docker build -t angrybird:0.1 . && docker run -p 80:80 --name angrybirdcontainer angrybird:0.1
