@@ -1,10 +1,12 @@
 # The-Birds
 
-- [WebGl](www.com)
+> 演示网站因为需要开启别的服务，使用了最简约的容器方案，给演示容器分配资源也很少，所以加载很慢。
 
-  -  install Docker-ce
+- [WebGl]()
 
-    > __Centos__
+  - install Docker-ce
+
+    > Centos
     >
     > ```shell
     > $ curl -fsSL https://get.docker.com -o get-docker.sh
@@ -13,14 +15,19 @@
     >
     > Others
     >
-    >  [docker install](www.com)
-
-  - run Docker image
-
+    > [docker.com install docker](https://docs.docker.com/install/linux/docker-ce/centos/#install-using-the-convenience-script)
+    >
+    > [aliyun install docker](https://yq.aliyun.com/articles/110806?spm=a2c4e.11153940.0.0.52027e291Wei2v)
+- run Docker image
+  
     > ```shell
     > $ mkdir angryBird && cd angryBird && wget https://raw.githubusercontent.com/chengaoang/The-Birds/develop/dockerFile/Dockerfile && docker build -t angrybird:0.1 . && docker run -p 80:80 --name angrybirdcontainer angrybird:0.1
     > ```
   
-- [Android](www.com)
+- [Android]()
 
-- [Windows](www.com)
+  - 
+
+- [Windows]()
+
+  - 
