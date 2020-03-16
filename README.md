@@ -1,6 +1,6 @@
 # The-Birds
 
-> 演示网站因为需要开启别的服务，使用了最简约的容器方案，给演示容器分配资源也很少，所以加载很慢。
+> WebGl演示网站因服务器带宽问题没有用docker部署，但是dockerfile测试过是可用的。
 
 - [WebGl 部署]()
 
@@ -30,4 +30,4 @@
   - 在 [releases](https://github.com/chengaoang/The-Birds/releases) 页面有演示程序
 
 ## TODO
-- [ ] write AngryBird.docx 20-03-02
+- [x] write AngryBird.docx 20-03-02/20-03-16
